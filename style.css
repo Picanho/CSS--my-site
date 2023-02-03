@@ -206,6 +206,7 @@ hr {
   .mid {
     display: flex;
     flex-direction: column;
+   padding-top: 15%;
   }
 
   .profile,
