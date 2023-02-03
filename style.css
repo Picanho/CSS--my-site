@@ -5,6 +5,7 @@ body {
   font-family: "Merriweather", serif;
 }
 
+
 h1 {
   font-size: 6rem;
   margin: 50px auto 0 auto;
@@ -16,13 +17,17 @@ h1 {
 h2 {
   font-family: "Nixie One", cursive;
   font-size: 2.5rem;
-  color: #a74213;
+  color: #070301;
   font-weight: normal;
+}
+
+.student {
+  color: #77400d;
 }
 
 h3 {
   font-family: "Montserrat", sans-serif;
-  color: #11999e;
+  color: #781297;
 }
 
 a {
@@ -39,7 +44,7 @@ p {
 }
 
 hr {
-  border: dotted #eaf6f6 6px; /*bolinhas de pular linha*/
+  border: dotted #e29727 6px; /*bolinhas de pular linha*/
   border-bottom: none;
   width: 4%;
   margin: 100px auto;
@@ -49,6 +54,7 @@ hr {
   background-color: #0e1733;
   position: relative;
   padding-top: 1%; /*estava 3% */
+  height: 730px;
 }
 
 .mid {
@@ -57,9 +63,14 @@ hr {
   margin: 0;
 }
 
+.contact-me {
+  padding: 50px 0;
+}
+
 .bot {
   background-color: #0e1733;
   padding: 75px 0;
+  /* margin-top: 20px; */
 }
 
 .bot p {
@@ -98,7 +109,7 @@ hr {
 
 .bot-cloud {
   position: absolute;
-  top: 370px;
+  top: 349px;
   left: 15%;
   width: 200px;
   height: 400px;
@@ -123,6 +134,7 @@ hr {
   width: 25%;
   float: left;
   margin-right: 30px;
+  border-radius: 50%;
 }
 
 .pooh-img {
@@ -140,6 +152,7 @@ hr {
   height: 200px;
   border: 5px solid #000000;
   margin: 5%;
+  object-fit: cover;
 }
 
 .btn {
@@ -148,7 +161,7 @@ hr {
   width: 145px;
   height: 32px;
   border-width: 5px;
-  color: #3a8a9e;
+  color: rgb(107, 101, 101);
   border-color: rgba(233, 233, 233, 1);
   border-top-left-radius: 39px;
   border-top-right-radius: 39px;
@@ -156,11 +169,11 @@ hr {
   border-bottom-right-radius: 39px;
   box-shadow: 1px 1px 0px -50px #899599;
   text-shadow: 0px 1px 0px rgba(223, 224, 240, 1);
-  background: linear-gradient(#ededed, #bab1ba);
+  background: linear-gradient(#3baa25, #620c9b);
 }
 
 .btn:hover {
-  background: linear-gradient(#bab1ba, #ededed);
+  background: linear-gradient(#0eb90e, #04c20e);
 }
 
 @media (max-width: 1200px) {
